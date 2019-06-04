@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'Walsheim';
+  src:  url('gt-walsheim-web.woff') format('woff');
+}
+
+body {
+  font-family: 'Walsheim', sans-serif;
+  margin: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+span.title {
+  font-size: 24px;
+  color: #060110;
+  position: fixed;
+  z-index: 11;
+  top: 210px;
+  left: 30px;
+  transform-origin: left;
+  transform: rotate(-90deg);
+  transition: all 0.2s ease-in-out;
+}
+
+img.gallery {
+  position: absolute;
+  min-width: 175px;
+}
+
+img.pic1 {
+  z-index: 3;
+  width: calc(90vw - 60px);
+  left: calc(7vw + 60px);
+  top: 61px;
+}
+
+img.pic2 {
+  z-index: 2;
+  width: calc(42vw - 60px);
+  left: calc(3vw + 60px);
+  top: 252px;
+}
+
+img.pic3 {
+  z-index: 1;
+  width: calc(47vw - 60px);
+  left: calc(37vw + 60px);
+  top: 764px;
+}
+
+img.pic4 {
+  z-index: 2;
+  width: calc(27vw - 60px);
+  left: calc(29vw + 60px);
+  top: 1416px;
+}
+
+img.pic5 {
+  z-index: 3;
+  width: calc(45vw - 60px);
+  left: calc(50vw + 60px);
+  top: 1806px;
+}
+
+img.pic6 {
+  z-index: 2;
+  width: calc(58vw - 60px);
+  left: calc(0vw + 60px);
+  top: 2017px;
+}
+
+img.pic7 {
+  z-index: 3;
+  width: calc(26vw - 60px);
+  left: calc(46vw + 60px);
+  top: 3000px;
+}
+
+img.pic8 {
+  z-index: 1;
+  width: calc(30vw - 60px);
+  left: calc(4vw + 60px);
+  top: 3318px;
+}
+
+img.pic9 {
+  z-index: 1;
+  width: calc(50vw - 60px);
+  left: calc(42vw + 60px);
+  top: 3668px;
+}
+
+img.pic10 {
+  z-index: 2;
+  width: calc(52vw - 60px);
+  left: calc(7vw + 60px);
+  top: 4675px;
+}
+
+img.pic11 {
+  z-index: 1;
+  width: calc(60vw - 60px);
+  left: calc(33vw + 60px);
+  top: 5166px;
+}
+
+img.pic12 {
+  z-index: 2;
+  width: calc(45vw - 60px);
+  left: calc(1vw + 60px);
+  top: 5820px;
+}
+
+img.pic13 {
+  z-index: 1;
+  width: calc(60vw - 60px);
+  left: calc(27vw + 60px);
+  top: 6299px;
+}
+
+img.pic14 {
+  position: absolute;
+  z-index: 1;
+  width: 225px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 7489px;
+  margin-bottom: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+img.bckgdShape {
+  position: absolute;
+  z-index: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+img.bckgdShape#shape1 {
+  width: 50vw;
+  left: 40vw;
+  top: 413px;
+}
+
+img.bckgdShape#shape2 {
+  width: 10vw;
+  left: 10vw;
+  top: 1396px;
+}
+
+img.bckgdShape#shape3 {
+  width:7vw;
+  left: 70vw;
+  top: 2786px;
+}
+
+img.bckgdShape#shape4 {
+  width: 11vw;
+  left: 80vw;
+  top: 3241px;
+}
+
+img.bckgdShape#shape5 {
+  width: 8vw;
+  left: 69vw;
+  top: 4704px;
+}
+
+img.bckgdShape#shape6 {
+  width: 15vw;
+  left: 55vw;
+  top: 5900px;
+}
+
+@media only screen and (max-width: 1100px) {
+  img.bckgdShape {
+    filter: hue-rotate(30deg);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  img.bckgdShape {
+    filter: hue-rotate(60deg);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  img.bckgdShape {
+    filter: hue-rotate(90deg);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  img.bckgdShape {
+    filter: hue-rotate(180deg);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  img.bckgdShape {
+    filter: hue-rotate(240deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  img.bckgdShape {
+    filter: hue-rotate(270deg);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  img.bckgdShape {
+    filter: hue-rotate(300deg);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  img.bckgdShape {
+    filter: hue-rotate(330deg);
+  }
+}

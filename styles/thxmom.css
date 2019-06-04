@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Walsheim';
+  src:  url('gt-walsheim-web.woff') format('woff');
+}
+
+body {
+  font-family: 'Walsheim', sans-serif;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+img.main {
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+}
+
+img.back {
+  position: fixed;
+  z-index: 1;
+  width: 50px;
+  left: 30px;
+  top: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+img.back:hover {
+  left: 40px;
+}
+
+span.thxMomTitle {
+  position: fixed;
+  z-index: 1;
+  width: 160px;
+  right: 20px;
+  top: 20px;
+  color: white;
+  font-size: 24px;
+  text-align: right;
+}
