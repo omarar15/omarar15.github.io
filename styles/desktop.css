@@ -207,6 +207,7 @@ img.bckgdShape#shape6 {
 }
 
 @media only screen and (max-width: 500px) {
+
   img.bckgdShape {
     filter: hue-rotate(300deg);
   }

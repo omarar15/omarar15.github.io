@@ -27,7 +27,7 @@ $(".gallery").each(function() {
     .css("color", "white")
     .css("position", "absolute")
     .css("z-index", 11)
-    .css("font-size", 18)
+    .css("font-size", 16)
     .css("top", posTop + 10)
     .css("left", posLeft + 10)
     .css("width", $(this).width()/2);
@@ -45,7 +45,7 @@ $(".gallery").each(function() {
       $(".pieceDesc").css("text-transform", "uppercase")
       .css("position", "absolute")
       .css("z-index", 11)
-      .css("font-size", 18)
+      .css("font-size", 16)
       .css("text-align", "right")
       .css("color", "white")
       .css("top", posTop + $(this).height() - 28)
