@@ -30,91 +30,91 @@ img.pic1 {
   z-index: 3;
   width: calc(90vw - 60px);
   left: calc(7vw + 60px);
-  top: 61px;
+  top: 5vw;
 }
 
 img.pic2 {
   z-index: 2;
   width: calc(42vw - 60px);
   left: calc(3vw + 60px);
-  top: 252px;
+  top: 18vw;
 }
 
 img.pic3 {
   z-index: 1;
   width: calc(47vw - 60px);
   left: calc(37vw + 60px);
-  top: 764px;
+  top: 53vw;
 }
 
 img.pic4 {
   z-index: 2;
   width: calc(27vw - 60px);
   left: calc(29vw + 60px);
-  top: 1416px;
+  top: 98vw;
 }
 
 img.pic5 {
   z-index: 3;
   width: calc(45vw - 60px);
   left: calc(50vw + 60px);
-  top: 1806px;
+  top: 125vw;
 }
 
 img.pic6 {
   z-index: 2;
   width: calc(58vw - 60px);
   left: calc(0vw + 60px);
-  top: 2017px;
+  top: 140vw;
 }
 
 img.pic7 {
   z-index: 3;
   width: calc(26vw - 60px);
   left: calc(46vw + 60px);
-  top: 3000px;
+  top: 208vw;
 }
 
 img.pic8 {
   z-index: 1;
   width: calc(30vw - 60px);
   left: calc(4vw + 60px);
-  top: 3318px;
+  top: 230vw;
 }
 
 img.pic9 {
   z-index: 1;
   width: calc(50vw - 60px);
   left: calc(42vw + 60px);
-  top: 3668px;
+  top: 255vw;
 }
 
 img.pic10 {
   z-index: 2;
   width: calc(52vw - 60px);
   left: calc(7vw + 60px);
-  top: 4675px;
+  top: 325vw;
 }
 
 img.pic11 {
   z-index: 1;
   width: calc(60vw - 60px);
   left: calc(33vw + 60px);
-  top: 5166px;
+  top: 360vw;
 }
 
 img.pic12 {
   z-index: 2;
   width: calc(45vw - 60px);
   left: calc(1vw + 60px);
-  top: 5820px;
+  top: 404vw;
 }
 
 img.pic13 {
   z-index: 1;
   width: calc(60vw - 60px);
   left: calc(27vw + 60px);
-  top: 6299px;
+  top: 432vw;
 }
 
 img.pic14 {
@@ -123,8 +123,8 @@ img.pic14 {
   width: 225px;
   left: 50%;
   transform: translateX(-50%);
-  top: 7489px;
-  padding-bottom: 100px;
+  top: 520vw;
+  padding-bottom: 8vw;
   transition: all 0.2s ease-in-out;
 }
 
@@ -137,37 +137,37 @@ img.bckgdShape {
 img.bckgdShape#shape1 {
   width: 50vw;
   left: 40vw;
-  top: 413px;
+  top: 28vw;
 }
 
 img.bckgdShape#shape2 {
   width: 10vw;
   left: 10vw;
-  top: 1396px;
+  top: 97vw;
 }
 
 img.bckgdShape#shape3 {
   width:7vw;
   left: 70vw;
-  top: 2786px;
+  top: 193vw;
 }
 
 img.bckgdShape#shape4 {
   width: 11vw;
   left: 80vw;
-  top: 3241px;
+  top: 225vw;
 }
 
 img.bckgdShape#shape5 {
   width: 8vw;
   left: 69vw;
-  top: 4704px;
+  top: 327vw;
 }
 
 img.bckgdShape#shape6 {
   width: 15vw;
   left: 55vw;
-  top: 5900px;
+  top: 410vw;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -213,21 +213,18 @@ img.bckgdShape#shape6 {
   }
   
   img.pic1 {
-    z-index: 3;
     width: calc(97vw - 60px);
     left: 60px;
     top: 30px;
   }
   
   img.pic2 {
-    z-index: 2;
     width: calc(50vw - 60px);
     left: 60px;
     top: 125px;
   }
   
   img.pic3 {
-    z-index: 1;
     width: calc(57vw-60px);
     left: auto;
     right: 20px;
@@ -235,14 +232,12 @@ img.bckgdShape#shape6 {
   }
   
   img.pic4 {
-    z-index: 2;
     width: calc(57vw - 60px);
     left: calc(19vw + 60px);
     top: 650px;
   }
   
   img.pic5 {
-    z-index: 3;
     width: calc(45vw - 60px);
     left: auto;
     right: 20px;
@@ -250,14 +245,12 @@ img.bckgdShape#shape6 {
   }
   
   img.pic6 {
-    z-index: 2;
     width: calc(58vw - 60px);
     left: 60px;
     top: 1000px;
   }
   
   img.pic7 {
-    z-index: 3;
     width: calc(29vw - 60px);
     left: auto;
     right: 20px;
@@ -265,14 +258,12 @@ img.bckgdShape#shape6 {
   }
   
   img.pic8 {
-    z-index: 1;
     width: calc(30vw - 60px);
     left: 60px;
     top: 1600px;
   }
   
   img.pic9 {
-    z-index: 1;
     width: calc(60vw - 60px);
     left: auto;
     right: 20%;
@@ -280,42 +271,32 @@ img.bckgdShape#shape6 {
   }
   
   img.pic10 {
-    z-index: 2;
     width: calc(62vw - 60px);
     left: 60px;
     top: 2350px;
   }
   
   img.pic11 {
-    z-index: 1;
     width: calc(65vw - 60px);
     left: calc(28vw + 60px);
     top: 2600px;
   }
   
   img.pic12 {
-    z-index: 2;
     width: calc(70vw - 60px);
     left: 60px;
     top: 2820px;
   }
   
   img.pic13 {
-    z-index: 1;
     width: calc(60vw - 60px);
     left: calc(27vw + 60px);
     top: 3150px;
   }
   
   img.pic14 {
-    position: absolute;
-    z-index: 1;
-    width: 225px;
-    left: 50%;
-    transform: translateX(-50%);
     top: 3550px;
     padding-bottom: 50px;
-    transition: all 0.2s ease-in-out;
   }
   
   img.bckgdShape {
