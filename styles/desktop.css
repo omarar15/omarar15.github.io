@@ -220,23 +220,23 @@ img.bckgdShape#shape6 {
   
   img.pic2 {
     z-index: 2;
-    width: calc(42vw - 60px);
-    left: calc(3vw + 60px);
+    width: calc(50vw - 60px);
+    left: 60px;
     top: 125px;
   }
   
   img.pic3 {
     z-index: 1;
-    width: calc(47vw - 60px);
-    left: calc(37vw + 60px);
+    width: calc(57vw - 60px);
+    left: calc(40vw + 60px);
     top: 380px;
   }
   
   img.pic4 {
     z-index: 2;
-    width: calc(27vw - 60px);
-    left: calc(29vw + 60px);
-    top: 700px;
+    width: calc(57vw - 60px);
+    left: calc(19vw + 60px);
+    top: 650px;
   }
   
   img.pic5 {
@@ -249,50 +249,50 @@ img.bckgdShape#shape6 {
   img.pic6 {
     z-index: 2;
     width: calc(58vw - 60px);
-    left: calc(0vw + 60px);
+    left: 60px;
     top: 1000px;
   }
   
   img.pic7 {
     z-index: 3;
-    width: calc(26vw - 60px);
-    left: calc(46vw + 60px);
-    top: 1500px;
+    width: calc(29vw - 60px);
+    left: calc(43vw + 60px);
+    top: 1450px;
   }
   
   img.pic8 {
     z-index: 1;
     width: calc(30vw - 60px);
-    left: calc(4vw + 60px);
+    left: 60px;
     top: 1650px;
   }
   
   img.pic9 {
     z-index: 1;
-    width: calc(50vw - 60px);
-    left: calc(42vw + 60px);
-    top: 1850px;
+    width: calc(60vw - 60px);
+    left: calc(27vw + 60px);
+    top: 1900px;
   }
   
   img.pic10 {
     z-index: 2;
-    width: calc(52vw - 60px);
-    left: calc(7vw + 60px);
+    width: calc(62vw - 60px);
+    left: 60px;
     top: 2350px;
   }
   
   img.pic11 {
     z-index: 1;
-    width: calc(60vw - 60px);
-    left: calc(33vw + 60px);
+    width: calc(65vw - 60px);
+    left: calc(28vw + 60px);
     top: 2600px;
   }
   
   img.pic12 {
     z-index: 2;
-    width: calc(45vw - 60px);
-    left: calc(1vw + 60px);
-    top: 2900px;
+    width: calc(70vw - 60px);
+    left: 60px;
+    top: 2820px;
   }
   
   img.pic13 {
@@ -308,7 +308,7 @@ img.bckgdShape#shape6 {
     width: 225px;
     left: 50%;
     transform: translateX(-50%);
-    top: 3750px;
+    top: 3550px;
     padding-bottom: 50px;
     transition: all 0.2s ease-in-out;
   }
@@ -322,7 +322,7 @@ img.bckgdShape#shape6 {
   img.bckgdShape#shape1 {
     width: 50vw;
     left: 40vw;
-    top: 200px;
+    top: 180px;
   }
   
   img.bckgdShape#shape2 {
@@ -334,7 +334,7 @@ img.bckgdShape#shape6 {
   img.bckgdShape#shape3 {
     width:7vw;
     left: 70vw;
-    top: 1400px;
+    top: 1300px;
   }
   
   img.bckgdShape#shape4 {
@@ -351,7 +351,7 @@ img.bckgdShape#shape6 {
   
   img.bckgdShape#shape6 {
     width: 15vw;
-    left: 55vw;
+    left: 75vw;
     top: 2950px;
   }
 }
