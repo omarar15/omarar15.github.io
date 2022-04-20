@@ -1,0 +1,375 @@
+@font-face {
+  font-family: "retroicaregular";
+  src: url("retroica-webfont.woff2") format("woff2"),
+    url("retroica-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  font-family: "retroicaregular", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.div {
+  background: url(vap2.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  z-index: -2;
+}
+
+.background {
+  background: url(paper_background.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  z-index: -2;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.25;
+  mix-blend-mode: multiply;
+  max-height: 95vh;
+  z-index: -1;
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 310px;
+  width: 80%;
+  animation: fadeIn 3s ease-in-out;
+  mix-blend-mode: multiply;
+  opacity: 0;
+  pointer-events: none;
+}
+
+main {
+  opacity: 0;
+  pointer-events: none;
+  animation: fade 1s ease-out 3300ms 1 forwards;
+}
+
+.heroLink {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  max-width: 400px;
+  text-decoration: none;
+  color: #193A0B;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  letter-spacing: 0.07em;
+}
+
+.heroImage {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 200ms ease-out;
+}
+
+@media (hover) {
+  .heroLink:hover .heroImage {
+    transform: translateY(-4px);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05), 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.characters {
+  max-height: 64px;
+  position: absolute;
+  mix-blend-mode: multiply;
+}
+
+.characters.top {
+  top: 40px;
+  left: 40px;
+}
+
+.characters.bottom {
+  bottom: 40px;
+  right: 40px;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+
+.nav-links {
+  display: flex;
+  position: absolute;
+  top: 40px;
+  right: 24px;
+}
+
+.nav-links li {
+  list-style: none;
+  margin: 0 16px;
+}
+
+.nav-links a {
+  color: #193A0B;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.burger {
+  display: none;
+}
+
+.fab {
+  color: #193A0B;
+}
+
+.burger div {
+  animation: fade 1.5s;
+  width: 25px;
+  height: 3px;
+  background-color: #193A0B;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 840px) {
+
+  .heroLink {
+    width: 320px;
+    max-width: 80%;
+  }
+
+  .heroLink span {
+    display: none;
+  }
+
+  .heroImage {
+    max-height: 320px;
+  }
+ 
+  .nav-links {
+    justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 102vh;
+    top: -1.5vh;
+    background-color: #EEE7DD;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 998;
+  }
+
+  .nav-links a {
+    opacity: 1 !important;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    z-index: 999;
+    display: block;
+    cursor: pointer;
+  }
+
+  .characters {
+    max-height: 50px;
+    max-width: 80%;
+  }
+
+  .characters.top {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+  }
+
+  .characters.bottom {
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 15%;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes fadeIn {
+  0% { 
+    display: inherit;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(95%);
+  }
+  10% { 
+    opacity: 0; 
+  }
+  40% { 
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(100%);
+  }
+  70% { 
+    opacity: 1; 
+    transform: translate(-50%, -50%) scale(100%);
+  }
+  100% { 
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(105%);
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.main-logo {
+  text-align: center;
+  animation: fade 2s;
+}
+
+.glow {
+  margin-top: 12%;
+  text-align: center;
+}
+.glow span {
+  display: inline-block;
+  color: #ffffff;
+  text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #0ba9ca,
+    0 0 30px #0ba9ca, 0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+  -webkit-animation: blink 1.5s infinite alternate;
+  animation: blink 1.5s infinite alternate;
+}
+.glow .major {
+  display: inline-block;
+  font-size: 200px;
+}
+
+.major {
+  letter-spacing: 20px;
+}
+
+@-webkit-keyframes blink {
+  100% {
+    text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff,
+      0 0 40px #0ba9ca, 0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+  }
+}
+
+@keyframes blink {
+  100% {
+    text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff,
+      0 0 40px #0ba9ca, 0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  100% {
+    opacity: 1;
+    pointer-events: inherit;
+  }
+}
+
+
+.f-container {
+  position: absolute;
+  bottom: 40px;
+  left: 24px;
+  width: 100%;
+}
+
+.f-container footer ul li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.f-container  footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+@media (max-width: 840px) {
+  .glow {
+    margin-top: 20%;
+  }
+
+  .glow .major {
+    writing-mode: vertical-lr;
+    font-size: 60px;
+    margin-right: 20px;
+  }
+
+  .f-container {
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
