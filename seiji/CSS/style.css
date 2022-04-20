@@ -53,17 +53,6 @@ body {
   z-index: -2;
 }
 
-.backgroundImage {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0.25;
-  mix-blend-mode: multiply;
-  max-height: 95vh;
-  z-index: -1;
-}
-
 .welcome {
   position: absolute;
   top: 50%;
